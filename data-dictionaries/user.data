@@ -1,0 +1,22 @@
+Unnamed 0			INTEGER		The row id
+accept_rate			INTEGER		The % of answers that were accepted as the best answer
+account_id			INTEGER		
+badge_counts			STRING		
+creation_date			INTEGER
+display_name			STRING
+is_employee			BOOLEAN
+last_access_date		INTEGER
+last_modified_date		INTEGER
+link				STRING
+location			STRING
+profile_image			STRING
+reputation			INTEGER
+reputation_change_day		INTEGER
+reputation_change_month		INTEGER
+reputation_change_quarter	INTEGER
+reputation_change_week		INTEGER
+reputation_change_year		INTEGER
+timed_penalty_date		INTEGER
+user_id				INTEGER
+user_type			STRING
+website_url			STRING
