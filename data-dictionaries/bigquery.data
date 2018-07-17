@@ -1,0 +1,30 @@
+question_id			INTEGER		The ID of the question
+question_tile			STRING		The Text title of the question
+question_body			STRING		The Question text
+accepted_answer_id		INTEGER		The answer that was accepted as the best answer
+answer_count			INTEGER		The number of answers provided
+question_creation_date		TIMESTAMP	The date the question was posted
+question_fav_count		INTEGER		The number of times the question was added to a user's favorites
+question_owner_display_name	STRING		The display name of the questioner
+question_owner_id		INTEGER		The user id of the questioner
+question_post_type_id		INTEGER		The question post type
+question_score			INTEGER		The total score of the question (including up and down votes)
+question_tags			STRING		Pipe seperated list of the tags (topics) of the question
+question_view_count		INTEGER		The number of times the question was viewed
+answer_id			INTEGER		The id of the answer
+answer_body			STRING		The answer text
+answer_comments			INTEGER		The number of comments on the answer
+answer_creation_date		TIMESTAMP	The date the answer was posted
+answer_owner_id			INTEGER		The user id of the user who posted the answer
+answer_parent_id		INTEGER		The question_id that the answer belongs to
+answer_post_type_id		INTEGER		The answer post type
+answer_score			INTEGER		The score of the answer (includes up and down votes)
+answer_tags			STRING		Tags (topics) given to the answer
+user_id				INTEGER		The id of the user who submitted the answer
+user_display_name		STRING		The display name of the answerer
+user_reputation			INTEGER		The answerer's total reputation
+user_up_votes			INTEGER		The total number of upvotes the answerer recieved
+user_down_votes			INTEGER		The total number of downvotes the answerer recieved
+user_views			INTEGER		The number of times the answerer's user profile was viewed
+user_profile_img_url		STRING		The URL of the answerer's user avatar
+user_website_url 		STRING		The URL of the answerer's website
